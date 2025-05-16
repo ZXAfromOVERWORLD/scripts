@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+STATUS=0
+
+if [ -z $1 ]
+then 
+	echo "No input was provided"
+	echo "And none was needed  :)"
+	exit 1
+fi
+
+ps -a
+
+read -p "Want to sleep yes or no" CON
+
+case "$CON" in
+	"YES" | "yes" | "y" | "Y") read -p "For How Long" LEN ;;
+	"NO" | "No" | "N" | "n") echo "Ok byee" exit 0 ;;
+esac
+
+echo "Going into sleep Mode for $LEN seconds"
+sleep $LEN
+echo "I am awake"
+
+top 
+echo q
+
+exit 0
