@@ -1,0 +1,12 @@
+This is a Test file
+In which I am going to write a few lines
+then I am going to test this by passing the file name as a parameter to a bash script
+The script will then read the first three lines and output then back into the file
+
+
+LINE 1: This is a Test file
+LINE 2: In which I am going to write a few lines
+LINE 3: then I am going to test this by passing the file name as a parameter to a bash script
+LINE 1: This is a Test file
+LINE 2: In which I am going to write a few lines
+LINE 3: then I am going to test this by passing the file name as a parameter to a bash script
